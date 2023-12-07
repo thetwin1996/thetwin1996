@@ -1,0 +1,154 @@
+{
+	"N_menuHome": "Inicio",
+	"N_menuAbout": "Sobre Mi",
+	"N_menuSkill": "Habilidades",
+	"N_menuWork": "Trabajos",
+	"N_menuContactUs": "Contáctenos",
+	"N_buttonResume": "Resúmen",
+
+	"MC_homeText1": "Hola, mi nombre es",
+	"MC_homeText2": "Anniel Valle Valera",
+	"MC_homeText3": "Construyo cosas para la web.",
+	"MC_homeText4": "Soy un desarrollador web junior capaz de crear aplicaciones web completas desde cero. Apasionado por la arquitectura y el desarrollo de software, con experiencia en diversos lenguajes y tecnologías de programación. Trabajo con tecnologías como MongoDB, Express.js, React.js y Node.js.",
+	"MC_ButtonMoreAboutMe": "Más Sobre Mi",
+	"MC_Phrase": "“No importa cuán lento vayas, mientras no te detengas”.",
+	"MC_PhraseAuthor": "Confucio",
+
+	"A_Title1": "Sobre Mi",
+	"A_Title2_1": "Detalles ",
+	"A_Title2_2": "Personales",
+	"A_Text1": "¡Hola! Mi nombre es Anniel. ",
+	"A_Text1_1": "Soy Desarrollador Web.",
+	"A_Text2": "Disfruto desarrollando aplicaciones. Mi interés por el desarrollo web comenzó en el año 2015 cuando comencé mis estudios de Ingeniería Informática, carrera que despertó mi interés por la creación de aplicaciones informáticas de cualquier tipo. Luego me interesé mucho más en la programación web porque me parece un mundo muy interesante.",
+	"A_Text3": "También he estudiado tecnologías de desarrollo de aplicaciones como React.js, Vue.js, Node.js, Python, SQL y Django. Para control de versiones Git y GitHub, y para realizar mis diseños: Figma.",
+	"A_Text4": "Mi experiencia laboral, como ingeniero, se centró en el desarrollo de diversos módulos para importantes sistemas de gestión de energía, donde tuve el privilegio de trabajar con diversas tecnologías de desarrollo web como HTML, CSS, JavaScript y PHP.",
+	"A_Text5": "Me encanta trabajar con todas estas tecnologías, ya que considero muy chulas las cosas que se pueden hacer con dedicación y conocimiento de estos temas.",
+	"A_Text6": "Mi lengua materna es el español. También hablo inglés, certificado por: ",
+	"A_Text6_1": "certificado.",
+	"A_buttonResume": "Descargar CV",
+	"Email": "Envíeme un mensaje",
+	"Whatsapp": "Envíeme un mensaje",
+
+	"Sk_Title1": "Habilidades",
+	"Sk_Title2_1": "¿En qué ",
+	"Sk_Title2_2": "puedo trabajar?",
+	"Sk_Text1": "Desarrollo del front-end", 
+	"Sk_Text2": "Desarrollo del back-end", 
+	"Sk_Text3": "Diseño de UI/UX", 
+	"Sk_Text4": "Herramientas",
+
+	"F_Filter1": "Todos",
+	"F_Filter2": "Full-Stack",
+	"F_Filter3": "Front-End",
+	"F_Filter4": "Back-End",
+	"F_Filter5": "Diseño",
+
+	"Wo_Title1": "Trabajos",
+	"Wo_Title2_1": "Últimos ",
+	"Wo_Title2_2": "Trabajos",	
+
+	"Wo_Name0": "Blog",
+	"Wo_Description0": "Aplicación con algunas de las funcionalidades típicas de un Blog, entre las que se encuentran: crear una publicación por parte de un usuario, listar las publicaciones de todos los usuarios y autenticación de usuarios.",
+	"Wo_Role0": "Proyecto Full-Stack",
+
+	"Wo_Name1": "Lista de Tareas",
+	"Wo_Description1": "Aplicación para listar las tareas de un usuario. Se implementaron funcionalidades CRUD típicas para gestionar tareas. Se empleó MongoDB para el manejo de la Base de Datos.",
+	"Wo_Role1": "Proyecto Full-Stack",
+
+	"Wo_Name2": "Lista de Tareas",
+	"Wo_Description2": "Aplicación para listar las tareas de un usuario. Se implementaron funcionalidades CRUD típicas para gestionar tareas. Se empleó PostgreSQL para el manejo de la Base de Datos.",
+	"Wo_Role2": "Proyecto Full-Stack",
+	
+	"Wo_Name3": "Lista de Tareas",
+	"Wo_Description3": "Aplicación para listar las tareas de un usuario. Se implementaron funcionalidades CRUD típicas para gestionar tareas. El servidor fue implementado en Django con SQLite como sistema gestor de la Base de Datos.",
+	"Wo_Role3": "Proyecto Full-Stack",
+	
+	"Wo_Name4": "Sociopedia",
+	"Wo_Description4": "Red social con algunas características típicas de este tipo de aplicaciones; como: autenticación, seguir y no seguir a usuarios, dar me gusta, hacer comentarios, etc.",
+	"Wo_Role4": "Proyecto Full-Stack",
+
+	"Wo_Name5": "Servidor para Envío de Correos Electrónicos",
+	"Wo_Description5": "Implementación de un servidor de Node.js para el envío de correos electrónicos.",
+	"Wo_Role5": "Proyecto Backend",
+
+	"Wo_Name6": "Calculadora",
+	"Wo_Description6": "Implementación de una calculadora con múltiples funcionalidades de cálculo.",
+	"Wo_Role6": "Proyecto Frontend",
+
+	"Wo_Name7": "Mi Sitio Web 1.0",
+	"Wo_Description7": "Implementación de mi Portafolio Web, el cual constituye mi sitio web personal.",
+	"Wo_Role7": "Proyecto Frontend",
+
+	"Wo_Name8": "Lista de Tareas",
+	"Wo_Description8": "Implementación de una lista de tareas con React.js.",
+	"Wo_Role8": "Proyecto Frontend",
+
+	"Wo_Name9": "Aplicación de dos idiomas",
+	"Wo_Description9": "Implementación de una aplicación de dos idiomas.",
+	"Wo_Role9": "Proyecto Frontend",
+
+	"Wo_Name10": "Juego de Tic Tac Toe",
+	"Wo_Description10": "Implementación del juego de Tic Tac Toe.",
+	"Wo_Role10": "Proyecto Frontend",
+
+	"Wo_Name11": "Aplicación para Buscar Películas",
+	"Wo_Description11": "Implementación de un buscador de películas.",
+	"Wo_Role11": "Proyecto Frontend",
+
+	"Wo_Name12": "Carrito de compras",
+	"Wo_Description12": "Implementación de una aplicación con carrito de compras.",
+	"Wo_Role12": "Proyecto Frontend",
+
+	"Wo_Name13": "Lista de tareas",
+	"Wo_Description13": "Implementación del servidor para listar las tareas de un usuario. Se implementaron funcionalidades CRUD típicas para gestionar tareas. Se empleó MongoDB para el manejo de la Base de Datos.",
+	"Wo_Role13": "Proyecto Backend",
+
+	"Wo_Name14": "Blog",
+	"Wo_Description14": "Implementación del servidor de un Blog para gestionar los usuarios y sus respectivas publicaciones.",
+	"Wo_Role14": "Proyecto Backend",
+
+	"Wo_Name15": "Lista de tareas",
+	"Wo_Description15": "Implementación del servidor para gestionar una lista de tareas almacenadas en una Base de Datos, manejada con PostgreSQL.",
+	"Wo_Role15": "Proyecto Backend",
+
+	"Wo_Name16": "Lista de tareas",
+	"Wo_Description16": "Implementación del servidor para gestionar una lista de tareas almacenadas en una Base de Datos, manejada con Django.",
+	"Wo_Role16": "Proyecto Backend",
+
+	"Wo_Name17": "Mi Sitio Web 1.0",
+	"Wo_Description17": "Diseño de la primera versión de mi portafolio web.",
+	"Wo_Role17": "Proyecto de Diseño",
+
+	"Wo_Name18": "Contador de Clics",
+	"Wo_Description18": "Implementación de un Contador de Clics donde se aplicaron conceptos importantes de React.js como el trabajo con componentes.",
+	"Wo_Role18": "Proyecto Frontend",
+
+	"Wo_Name19": "Mi Tarjeta de Presentación",
+	"Wo_Description19": "Diseño de Mi Tarjeta de Presentación.",
+	"Wo_Role19": "Proyecto de Diseño",
+
+	"Pa_Previous": "Anterior",
+	"Pa_Next": "Siguiente",
+
+	"CU_Title1": "Contáctenos",
+	"CU_Title2_1": "Ponerse e",
+	"CU_Title2_2": "n contacto",
+	"CU_Email": "Correo",
+	"CU_Whatsapp": "Whatsapp",
+	"CU_FormButton": "Envíeme un mensaje",
+
+	"CU_Name": "Nombre: ",
+	"CU_Error1": "Solo es permitido escribir de 1 a 40 caracteres alfabético, con o sin acentuación y espacios.",
+	"CU_Mail": "Correo: ",
+	"CU_Error2": "Solo es permitido escribir un correo válido.",
+	"CU_Message": "Mensaje: ",
+	"CU_Error3": "Solo es permitido escribir de 4 a 1500 caracteres alfanuméricos, con o sin acentuación y espacio.",
+	"CU_Error": "Error: ",
+	"CU_Error4": "Debes completar todos los campos correctamente.",
+	"CU_Done": "¡Mensaje enviado correctamente!",
+
+	"Fo_CopyRightText": "Todos los derechos reservados.",
+
+	"PNF_buttonResume": "Ir a Inicio",
+	"PNF_PageNotFound": "Página No Encontrada"
+}

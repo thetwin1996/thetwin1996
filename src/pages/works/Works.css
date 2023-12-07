@@ -1,0 +1,29 @@
+.Wo_Works {
+    background: var(--secondary-background-color);
+}
+
+.Wo_Titles {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.Wo_Title1,
+.Wo_Title2 {
+    font-family: var(--title-font);
+    font-weight: var(--title-font-weight);
+    font-size: var(--title-font-size);
+    line-height: var(--title-line-height);
+    letter-spacing: var(--title-letter-spacing);
+    color: var(--secondary-paragraph-color);
+}
+
+.Wo_Title1>span,
+.Wo_Title2>span {
+    color: var(--skin-color);
+}
+
+.Wo_Title2 {
+    align-self: center;
+    margin: 30px 0 40px 0;
+}

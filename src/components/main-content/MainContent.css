@@ -1,0 +1,401 @@
+.MC_Content {
+    margin-top: calc(var(--height-navbar) + 30px);
+}
+
+.MC_TextsButtonPhoto {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 22px 0 0;
+}
+
+.MC_TextsButton {
+    display: flex;
+    flex-direction: column;
+}
+
+.MC_HomeText1 {
+    font-family: var(--normal-paragraph-font);
+    font-weight: var(--normal-paragraph-font-weight);
+    font-size: var(--normal-paragraph-font-size);
+    line-height: var(--normal-paragraph-line-height);
+    letter-spacing: var(--normal-paragraph-letter-spacing);
+    color: var(--secondary-paragraph-color);
+}
+
+.MC_HomeText2 {
+    font-family: var(--myname-font);
+    font-weight: var(--super-title-font-weight);
+    font-size: var(--super-title-font-size);
+    line-height: var(--super-title-line-height);
+    letter-spacing: var(--super-title-letter-spacing);
+    color: var(--skin-color);
+    margin: 2% 0;
+}
+
+.MC_HomeText3 {
+    font-family: var(--super-title-font);
+    font-weight: var(--super-title-font-weight);
+    font-size: var(--super-title-font-size);
+    line-height: var(--super-title-line-height);
+    letter-spacing: var(--super-title-letter-spacing);
+    color: var(--primary-paragraph-color);
+}
+
+.MC_HomeProfilePhoto {
+    width: var(--photo-size);
+    height: calc((var(--photo-size) + 40px));
+    border-radius: 10px;
+    position: relative;
+    z-index: 10;
+}
+
+.MC_HomeProfilePhoto::after {
+    content: '';
+    position: absolute;
+    width: var(--photo-size);
+    height: calc((var(--photo-size) + 40px));
+    border-bottom: 5px solid var(--skin-color);
+    border-radius: 10px;
+    right: 0px;
+    bottom:-10px;
+    z-index: -1;
+}
+
+.MC_HomeProfilePhoto>img {
+    width: var(--photo-size);
+    height: calc((var(--photo-size) + 40px));
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.MC_HomeText4 {
+    font-family: var(--normal-paragraph-font);
+    font-weight: var(--normal-paragraph-font-weight);
+    font-size: var(--normal-paragraph-font-size);
+    line-height: var(--normal-paragraph-line-height);
+    letter-spacing: var(--normal-paragraph-letter-spacing);
+    color: var(--secondary-paragraph-color);
+    margin: 2% 0 5%;
+    width: 85%;
+}
+
+.MC_Phrase {
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 40%;
+    margin-left: 60%;
+    gap: 10px;
+}
+
+.MC_Phrase>p {
+    font-family: var(--phrase-font);
+    font-size: var(--phrase-font-size);
+    line-height: var(--phrase-line-height);
+    letter-spacing: var(--phrase-letter-spacing);
+    color: var(--secondary-paragraph-color);
+}
+
+/* Hacer responsive la Sección Home */
+@media (width > 2000px) {
+    :root {
+        /* Dimensiones de los super títulos. */
+        --super-title-font-size: 60px;
+        /* Dimensiones de la frase. */
+        --phrase-font-size: 8uvar(--normal-paragraph-font-size);
+    }
+
+    .MC_HomeText2 {
+        margin: 30px 0 30px 0;
+    }
+
+    .MC_HomeText4 {
+        width: 90%;
+        margin: 30px 0 100px 0;
+    }
+
+    .MC_Phrase {
+        margin-top: 110px;
+        width: 30%;
+        margin-left: 70%;
+        gap: 5px;
+    }
+}
+
+@media (width <=2000px) {
+    :root {
+        /* Dimensiones de los super títulos. */
+        --super-title-font-size: 50px;
+        /* Dimensiones de la frase. */
+        --phrase-font-size: 8uvar(--normal-paragraph-font-size);
+    }
+
+    .MC_HomeText2 {
+        margin: 10px 0 10px 0;
+    }
+
+    .MC_HomeText4 {
+        width: 80%;
+        margin: 10px 0 100px 0;
+    }
+
+    .MC_Phrase {
+        margin-top: 110px;
+        width: 30%;
+        margin-left: 70%;
+        gap: 5px;
+    }
+}
+
+@media (width <=1520px) {
+    :root {
+        /* Dimensiones de los super títulos. */
+        --super-title-font-size: 50px;
+        /* Dimensiones de la frase. */
+        --phrase-font-size: var(--normal-paragraph-font-size);
+    }
+
+    .MC_HomeText2 {
+        margin: 2px 0 2px 0;
+    }
+
+    .MC_HomeText4 {
+        width: 85%;
+        margin: 2px 0 50px 0;
+    }
+
+    .MC_Phrase {
+        margin-top: 70px;
+        width: 40%;
+        margin-left: 60%;
+        gap: 0px;
+    }
+}
+
+@media (width <=1440px) {
+    :root {
+        /* Dimensiones de los super títulos. */
+        --super-title-font-size: 40px;
+        /* Dimensiones de la frase. */
+        --phrase-font-size: var(--normal-paragraph-font-size);
+    }
+
+    .MC_HomeText2 {
+        margin: 20px 0 20px 0;
+    }
+
+    .MC_HomeText4 {
+        width: 90%;
+        margin: 20px 0 90px 0;
+    }
+
+    .MC_Phrase {
+        margin-top: 140px;
+        width: 55%;
+        margin-left: 45%;
+        gap: 0px;
+    }
+}
+
+@media (width <=1200px) {
+    :root {
+        /* Dimensiones de los super títulos. */
+        --super-title-font-size: 35px;
+        /* Dimensiones de la frase. */
+        --phrase-font-size: var(--normal-paragraph-font-size);
+    }
+
+    .MC_HomeText2 {
+        margin: 20px 0 20px 0;
+    }
+
+    .MC_HomeText4 {
+        width: 90%;
+        margin: 20px 0 90px 0;
+    }
+
+    .MC_Phrase {
+        margin-top: 140px;
+        width: 55%;
+        margin-left: 45%;
+        gap: 0px;
+    }
+}
+
+@media (width <=1000px) {
+    :root {
+        /* Dimensiones de los super títulos. */
+        --super-title-font-size: 30px;
+        /* Dimensiones de la frase. */
+        --phrase-font-size: var(--normal-paragraph-font-size);
+    }
+
+    .MC_HomeText2 {
+        margin: 20px 0 20px 0;
+    }
+
+    .MC_HomeText4 {
+        width: 90%;
+        margin: 20px 0 90px 0;
+    }
+
+    .MC_Phrase {
+        margin-top: 140px;
+        width: 55%;
+        margin-left: 45%;
+        gap: 0px;
+    }
+}
+
+@media (width <=850px) {
+    :root {
+        /* Dimensiones de los super títulos. */
+        --super-title-font-size: 35px;
+        /* Dimensiones de la frase. */
+        --phrase-font-size: var(--normal-paragraph-font-size);
+    }
+
+    .MC_HomeText1,
+    .MC_HomeText2,
+    .MC_HomeText3,
+    .MC_HomeText4 {
+        text-align: center;
+    }
+
+    .MC_HomeText2 {
+        margin: 30px 0 30px 0;
+    }
+
+    .MC_HomeText4 {
+        width: 80%;
+        margin: 30px 0 0px 0;
+    }
+
+    .MC_Phrase {
+        margin-top: 60px;
+        width: 55%;
+        margin-left: 45%;
+        gap: 0px;
+    }
+
+    .MC_TextsButtonPhoto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .MC_TextsButton {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .MC_Texts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .MC_Button {
+        margin: 40px;
+    }
+
+    .MC_Phrase {
+        display: none;
+    }
+
+    .MC_HomeProfilePhoto {
+        margin-bottom: 20px;
+    }
+
+    .MC_HomeProfilePhoto::after {
+        content: '';
+        position: absolute;
+        width: calc(var(--photo-size));
+        height: calc((var(--photo-size) + 40px));
+        border: 2px solid var(--skin-color);
+        border-radius: 10px;
+        top: -2px;
+        right: 0;
+        bottom: 0;
+        left: -2px;
+        z-index: -1;
+    }
+}
+
+@media (width <=500px) {
+    :root {
+        /* Dimensiones de los super títulos. */
+        --super-title-font-size: 25px;
+        /* Dimensiones de la frase. */
+        --phrase-font-size: var(--normal-paragraph-font-size);
+    }
+
+    .MC_HomeText1,
+    .MC_HomeText2,
+    .MC_HomeText3,
+    .MC_HomeText4 {
+        text-align: center;
+    }
+
+    .MC_HomeText2 {
+        margin: 30px 0 30px 0;
+    }
+
+    .MC_HomeText4 {
+        width: 80%;
+        margin: 30px 0 0px 0;
+    }
+
+    .MC_Phrase {
+        margin-top: 60px;
+        width: 55%;
+        margin-left: 45%;
+        gap: 0px;
+    }
+
+    .MC_TextsButtonPhoto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .MC_TextsButton {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .MC_Texts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .MC_Button {
+        margin: 40px;
+    }
+
+    .MC_Phrase {
+        display: none;
+    }
+
+    .MC_HomeProfilePhoto {
+        margin-bottom: 20px;
+    }
+
+    .MC_HomeProfilePhoto::after {
+        content: '';
+        position: absolute;
+        width: calc(var(--photo-size));
+        height: calc((var(--photo-size) + 40px));
+        border: 2px solid var(--skin-color);
+        border-radius: 10px;
+        top: -2px;
+        right: 0;
+        bottom: 0;
+        left: -2px;
+        z-index: -1;
+    }
+}

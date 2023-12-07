@@ -1,0 +1,15 @@
+.Lo_BackgroundBorder {
+    stroke: var(--skin-color);
+    fill: transparent;
+}
+
+.Lo_Content {
+    fill: var(--skin-color);
+}
+
+.Lo_NavbarLogo {
+    height: calc(var(--height-navbar) - 30px);
+    width: calc(var(--height-navbar) - 30px);
+    margin-top: 5px;
+    margin-bottom: 1px;
+}

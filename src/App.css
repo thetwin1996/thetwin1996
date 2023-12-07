@@ -1,0 +1,226 @@
+/* Types of letters. */
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Manrope:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+/* Style Initializations */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+/* Global Variables. */
+:root {
+  /* Phrase Paragraph Styles. */
+  --phrase-font: 'Beth Ellen', cursive;
+  --phrase-font-size: 18px;
+  --phrase-line-height: 30px;
+  --phrase-letter-spacing: 5%;
+  /* My Name Paragraph Styles. */
+  --myname-font: 'Clicker Script', cursive;
+  /* Small Paragraph Styles. */
+  --small-paragraph-font: 'Manrope', sans-serif;
+  --small-paragraph-font-weight: 500;
+  --small-paragraph-font-size: 20px;
+  --small-paragraph-line-height: 20px;
+  --small-paragraph-letter-spacing: 28%;
+  /* Normal Paragraph Styles. */
+  --normal-paragraph-font: 'Manrope', sans-serif;
+  --normal-paragraph-font-weight: 500;
+  --normal-paragraph-font-size: 20px;
+  --normal-paragraph-line-height: 30px;
+  --normal-paragraph-letter-spacing: 8%;
+  /* Title Paragraph Styles. */
+  --title-font: 'Manrope', sans-serif;
+  --title-font-weight: 600;
+  --title-font-size: 30px;
+  --title-line-height: 35px;
+  --title-letter-spacing: 8%;
+  /* The Biggest Paragraph Styles. */
+  --super-title-font: 'Manrope', sans-serif;
+  --super-title-font-weight: 700;
+  --super-title-font-size: 70px;
+  --super-title-line-height: auto;
+  --super-title-letter-spacing: 0%;
+  /* Colors. */
+  --primary-background-color: #FFFFFF;
+  --secondary-background-color: #EDEDED;
+  --primary-background-color-navbar: #DDD;
+  --primary-paragraph-color: #000;
+  --secondary-paragraph-color: #000;
+  --primary-color: #FFF;
+  --skin-color: ;
+  /* Shadow Styles. */
+  --menu-bar-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.25);
+  --button-shadow: 5px 5px 10px 2px rgba(186, 186, 186, 0.75);
+  --button-shadow-hover: 4px 4px 0px -1px var(--skin-color);
+  --contact-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.6);
+  /* Sizes. */
+  --icon-size: 22px;
+  --photo-size: 300px;
+  --container: 80px;
+  --padding-right-left: 50px;
+  --padding-top: 50px;
+  --height-navbar: 200px;
+  --button-height: 50px;
+  --button-width: 120px;
+  --line-height: 120px;
+  --transition: .2s, all .2s;
+  --transform: translate(-2px, -2px);
+  /* Global Variables of Personal Things. */
+  --email: annielvallevalera96@gmail.com;
+  --website: https://annielvallevalera.netlify.app/;
+  --whatsapp: https://api.whatsapp.com/send?phone=+529624508101&text=Hello;
+  --instagram: https://www.instagram.com/thetwin1996/;
+  --github: https://github.com/thetwin1996;
+  --linkedin: https://www.linkedin.com/in/thetwin1996/;
+  --twitter: https://twitter.com/thetwin1996;
+  --facebook: https://www.facebook.com/thetwin1996;
+  --resume: /src/assets/resume.pdf;
+  --certificate: /src/assets/certificate.pdf;  
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background: var(--primary-background-color);
+}
+
+body.dark {
+  --primary-background-color: #1F1F1F;
+  --secondary-background-color: #393939;
+  --primary-background-color-navbar: #272727;
+  --primary-paragraph-color: #FFF;
+  --secondary-paragraph-color: #FFF;
+  --primary-color: #FFF;
+}
+
+.padding {
+  padding: var(--padding-top) var(--padding-right-left) var(--padding-top) var(--padding-right-left);
+  transition: var(--transition);
+}
+
+.container {
+  padding: 0 var(--container);
+  transition: var(--transition);
+}
+
+@media (width > 2000px) {
+  :root {
+    --container: 150px;
+    --normal-paragraph-font-size: 20px;
+    --normal-paragraph-line-height: 35px;
+    --button-height: 50px;
+    --button-width: 170px;
+    --photo-size: 320px;
+    --small-paragraph-font-size: var(--normal-paragraph-font-size);
+    --title-font-size: 25px;
+    --padding-top: 50px;
+    --padding-right-left: 150px;
+    --icon-size: 25px;
+  }
+}
+
+@media (width <=2000px) {
+  :root {
+    --container: 100px;
+    --normal-paragraph-font-size: 16px;
+    --normal-paragraph-line-height: 30px;
+    --button-height: 40px;
+    --button-width: 145px;
+    --photo-size: 220px;
+    --small-paragraph-font-size: var(--normal-paragraph-font-size);
+    --title-font-size: 25px;
+    --padding-top: 20px;
+    --padding-right-left: 120px;
+    --icon-size: 25px;
+  }
+}
+
+@media (width <=1520px) {
+  :root {
+    --container: 80px;
+    --normal-paragraph-font-size: 15px;
+    --normal-paragraph-line-height: 32px;
+    --button-height: 42px;
+    --button-width: 120px;
+    --photo-size: 160px;
+    --small-paragraph-font-size: var(--normal-paragraph-font-size);
+    --title-font-size: 25px;
+    --padding-top: 40px;
+    --padding-right-left: 100px;
+    --icon-size: 25px;
+  }
+}
+
+@media (width <=1440px) {
+  :root {
+    --container: 60px;
+    --normal-paragraph-font-size: 15px;
+    --normal-paragraph-line-height: 32px;
+    --button-height: 42px;
+    --button-width: 120px;
+    --photo-size: 180px;
+    --small-paragraph-font-size: var(--normal-paragraph-font-size);
+    --title-font-size: 22px;
+    --padding-top: 40px;
+    --padding-right-left: 50px;
+    --icon-size: 20px;
+  }
+}
+
+@media (width <=1000px) {
+  :root {
+    --container: 40px;
+    --normal-paragraph-font-size: 14px;
+    --normal-paragraph-line-height: 32px;
+    --button-height: 42px;
+    --button-width: 120px;
+    --photo-size: 180px;
+    --small-paragraph-font-size: var(--normal-paragraph-font-size);
+    --title-font-size: 20px;
+    --padding-top: 40px;
+    --padding-right-left: 50px;
+    --icon-size: 20px;
+  }
+}
+
+@media (width <=850px) {
+  :root {
+    --container: 30px;
+    --normal-paragraph-font-size: 15px;
+    --normal-paragraph-line-height: 25px;
+    --button-height: 42px;
+    --button-width: 150px;
+    --photo-size: 180px;
+    --small-paragraph-font-size: var(--normal-paragraph-font-size);
+    --title-font-size: 22px;
+    --padding-top: 40px;
+    --padding-right-left: 0px;
+    --icon-size: 20px;
+  }
+}
+
+@media (width <=500px) {
+  :root {
+    --container: 30px;
+    --normal-paragraph-font-size: 14px;
+    --normal-paragraph-line-height: 25px;
+    --button-height: 42px;
+    --button-width: 120px;
+    --photo-size: 140px;
+    --small-paragraph-font-size: var(--normal-paragraph-font-size);
+    --title-font-size: 14px;
+    --padding-top: 40px;
+    --padding-right-left: 0px;
+    --icon-size: 20px;
+  }
+}

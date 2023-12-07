@@ -1,0 +1,7 @@
+svg.II_Content,
+svg.GI_Content,
+svg.LI_Content,
+svg.TI_Content,
+svg.FI_Content {
+    fill: var(--primary-paragraph-color);
+}

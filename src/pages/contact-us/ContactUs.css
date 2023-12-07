@@ -1,0 +1,196 @@
+.CU_ContactUs {
+    background: var(--primary-background-color);
+}
+
+.CU_Content {
+    display: flex;
+    flex-direction: column;
+}
+
+.CU_Titles {
+    display: flex;
+    flex-direction: column;
+}
+
+.CU_Title1,
+.CU_Title2 {
+    font-family: var(--title-font);
+    font-weight: var(--title-font-weight);
+    font-size: var(--title-font-size);
+    line-height: var(--title-line-height);
+    letter-spacing: var(--title-letter-spacing);
+    color: var(--secondary-paragraph-color);
+}
+
+.CU_Title1>span,
+.CU_Title2>span {
+    color: var(--skin-color);
+}
+
+.CU_Title2 {
+    align-self: center;
+    margin: 30px 0 40px 0;
+}
+
+.CU_ContactAndForm {
+    display: flex;
+    gap: 40px;
+}
+
+.CU_ContactInformation {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 30px;
+    /* margin-top: 40px; */
+    width: 30%;
+}
+
+.CU_ContactOption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    background: var(--secondary-background-color);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    font-family: var(--normal-paragraph-font);
+    font-weight: var(--normal-paragraph-font-weight);
+    font-size: var(--normal-paragraph-font-size);
+    color: var(--secondary-paragraph-color);
+}
+
+.CU_ContactOption:hover {
+    background: transparent;
+    border-color: var(--skin-color);
+}
+
+.CU_ContactOptionIcon {
+    font-size: var(--icon-size);
+    margin-bottom: 0.5rem;
+    color: var(--secondary-paragraph-color);
+}
+
+.CU_ContactOptionText {
+    margin-top: 10px;
+    color: var(--skin-color);
+}
+
+.CU_Form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+}
+
+.CU_Input,
+.CU_Textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid var(--skin-color);
+    color: var(--secondary-paragraph-color);
+    resize: none;
+}
+
+.CU_Input::placeholder,
+.CU_Textarea::placeholder {
+    color: var(--secondary-paragraph-color);
+}
+
+.CU_Button {
+    height: var(--button-height);
+    width: 100%;
+    background: var(--skin-color);
+    color: var(--primary-background-color);
+    border-radius: 10px;
+    border: 2px solid var(--skin-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--normal-paragraph-font);
+    font-weight: var(--normal-paragraph-font-weight);
+    font-size: var(--normal-paragraph-font-size);
+    line-height: var(--normal-paragraph-line-height);
+    letter-spacing: var(--normal-paragraph-letter-spacing);
+    transition: var(--transition);
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+}
+
+.CU_Button:hover {
+    background: var(--primary-background-color);
+    color: var(--skin-color);
+    cursor: pointer;
+    transform: var(--transform);
+    -webkit-transform: var(--transform);
+    -moz-transform: var(--transform);
+}
+
+.EM_Alert,
+.DM_Alert {
+    display: flex;
+    align-items: center;    
+    padding: 5px;
+    border-radius: 10px;
+    width: max-content;
+    align-self: center;
+}
+
+.EM_Alert {
+    border: 2px solid #F31260;
+    color: #F31260;
+}
+
+.DM_Alert {
+    border: 2px solid #12A150;
+    color: #12A150;
+}
+
+.EM_Text,
+.DM_Text {
+    font-family: var(--normal-paragraph-font);
+    font-weight: var(--normal-paragraph-font-weight);
+    font-size: calc(var(--normal-paragraph-font-size) - 2px);
+    margin-left: 5px;
+}
+
+/* Adaptabilidad. */
+@media (width > 2000px) {}
+
+@media (width <=2000px) {}
+
+@media (width <=1520px) {}
+
+@media (width <=1440px) {}
+
+@media (width <=1100px) {}
+
+@media (width <=850px) {
+    .CU_ContactAndForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .CU_ContactInformation {
+        width: 90%;
+    }
+
+    .CU_ContactOption {
+        width: 100%;
+    }
+
+    .CU_Form {
+        width: 90%;
+    }
+}
+
+@media (width <=500px) {}
+
+@media (width <=500px) {}

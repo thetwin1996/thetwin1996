@@ -1,0 +1,267 @@
+.N_navbar {
+    box-shadow: var(--menu-bar-shadow);
+    background: var(--primary-background-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    height: var(--height-navbar);
+    transition: height 0.3s;
+    width: 100%;
+    z-index: 20;
+    padding: 0 var(--container);
+    border-bottom: 2px solid var(--secondary-background-color);
+}
+
+.N_SmallerNavbar {
+    height: calc(var(--height-navbar) - 20px);
+    transition: height 0.3s;
+}
+
+.N_navbarMenu {
+    display: flex;
+    align-items: center;
+    justify-items: flex-end;
+}
+
+.N_links {
+    display: flex;
+    align-items: center;
+}
+
+.N_link {
+    list-style-type: none;
+}
+
+.N_link>a,
+.N_link>a:hover {
+    text-decoration: none;
+}
+
+.N_link>a {
+    margin-right: 40px;
+    /* Párrafo Normal */
+    font-family: var(--normal-paragraph-font);
+    font-weight: var(--normal-paragraph-font-weight);
+    font-size: var(--normal-paragraph-font-size);
+    line-height: var(--normal-paragraph-line-height);
+    letter-spacing: var(--normal-paragraph-letter-spacing);
+    color: var(--secondary-paragraph-color);
+    cursor: pointer;
+    position: relative;
+    transition: var(--transition);
+}
+
+.N_link>a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: var(--skin-color);
+    top: 25px;
+    left: 0;
+    transition: all .3s ease-out 0s;
+}
+
+.N_link>a:hover::after {
+    width: 100%;
+}
+
+.N_link>a.active::after {
+    width: 100%;
+}
+
+.N_link>a>span {
+    color: var(--skin-color);
+}
+
+.N_buttonOpenMenu {
+    display: none;
+    border: none;
+    background: none;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.N_buttonCloseMenu {
+    display: none;
+    border: none;
+    background: none;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+
+.N_controlButtons {
+    display: none;
+}
+
+.N_medias {
+    display: none;
+}
+
+/* Barra de Menú Responsiva. */
+@media (width > 2000px) {
+    :root {
+        /* Ancho de la barra de menú. */
+        --height-navbar: 100px;
+    }
+}
+
+@media (width <=2000px) {
+    :root {
+        /* Ancho de la barra de menú. */
+        --height-navbar: 80px;
+    }
+}
+
+@media (width <=1520px) {
+    :root {
+        /* Ancho de la barra de menú. */
+        --height-navbar: 70px;
+    }
+}
+
+@media (width <=1440px) {
+    :root {
+        /* Ancho de la barra de menú. */
+        --height-navbar: 70px;
+    }
+
+    .N_link>a {
+        margin-right: 30px;
+    }
+}
+
+/* Hacer la Vista Móvil. */
+@media (width <=850px) {
+
+    .N_navbar {
+        filter: none;
+    }
+
+    .N_buttonOpenMenu,
+    .N_buttonCloseMenu {
+        display: block;
+        pointer-events: all;
+    }
+
+    .N_navbarMenu {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        opacity: 0;
+        right: 0;
+        top: 0;
+        width: 70%;
+        align-items: center;
+        background: var(--primary-background-color-navbar);
+        height: 100vh;
+        /* Poner barra vertical de scroll automáticamente cuando el contenido no quepa verticalmente en la pantalla. */
+        overflow-y: auto;
+        /* Ya que no se ve el menú en vista móvil, también deshabilitar la acción de sus botones. */
+        pointer-events: none;
+        /* Hacer una transición al menú. */
+        transition: opacity 0.3s;
+    }
+
+    .N_buttonCloseMenu {
+        /* Los elementos del menú están alineados al centro, quiero que solo este botón se alinee al final. */
+        align-self: flex-end;
+        /* Ajustar. */
+        margin: 16px calc(var(--container) + 1px);
+        transition: margin 0.3s;
+    }
+
+    .N_buttonCloseMenuDetectingScrolling {
+        /* Ajustar. */
+        margin: 5px var(--container);
+        transition: margin 0.3s;
+    }
+
+    .N_links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 40px;
+    }
+
+    .N_link>a {
+        margin: 0;
+    }
+
+    .N_link {
+        margin: 10px 0;
+    }
+
+    /* Cuando el menú contenga la clase "menu_opened", este se hará mostrar. */
+    .N_menuOpened {
+        /* Mostrarlo. */
+        opacity: 1;
+        /* Activar la acción de los botones. */
+        pointer-events: all;
+    }
+
+    /* Cuando se activa la vista móvil, mostrar también en la barra de menú los Botones de Control e Iconos de Redes Sociales. */
+    .N_controlButtons {
+        display: flex;
+        margin-top: 40px;
+    }
+
+    .N_controlIcon {
+        fill: var(--primary-paragraph-color);
+        height: var(--icon-size);
+        width: var(--icon-size);
+        cursor: pointer;
+        background: none;
+        border: none;
+        transition: var(--transition);
+        -webkit-transition: var(--transition);
+        -moz-transition: var(--transition);
+    }
+
+    .N_controlIcon:hover {
+        fill: var(--skin-color);
+        cursor: pointer;
+        transform: scale3d(1.2, 1.3, 0.3);
+        -webkit-transform: scale3d(1.2, 1.2, 0.3);
+        -moz-transform: scale3d(1.2, 1.2, 0.3);
+    }
+
+    .N_controlIcon:not(:last-child) {
+        margin-right: 22px;
+    }
+
+    .N_medias {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .N_socialIcon {
+        fill: var(--primary-paragraph-color);
+        border: none;
+        background: none;
+        /* Animación. */
+        transition: .3s, color .3s;
+        -webkit-transition: .3s, color .3s;
+        -moz-transition: .3s, color .3s;
+    }
+
+    .N_socialIcon:not(:last-child) {
+        margin-right: 22px;
+    }
+
+    .N_socialIcon:hover {
+        fill: var(--skin-color);
+        cursor: pointer;
+        /* Animación. */
+        transform: scale3d(1.2, 1.2, 0.3);
+        -webkit-transform: scale3d(1.2, 1.2, 0.3);
+        -moz-transform: scale3d(1.2, 1.2, 0.3);
+    }
+}

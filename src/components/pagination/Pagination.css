@@ -1,0 +1,102 @@
+.Pa_Paginations {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.Pa_Pagination-List {
+    list-style: none;
+    display: flex;
+}
+
+.Pa_Pagination,
+.Pa_Pagination-Previous,
+.Pa_Pagination-Next {
+    height: 34px;
+    width: 34px;
+    border-radius: 10px;
+    font-family: var(--normal-paragraph-font);
+    font-weight: calc(var(--normal-paragraph-font-weight) + 0);
+    font-size: calc(var(--normal-paragraph-font-size) - 3px);
+    line-height: var(--normal-paragraph-line-height);
+    letter-spacing: var(--normal-paragraph-letter-spacing);
+    color: var(--secondary-paragraph-color);
+    background: var(--primary-background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.Pa_Pagination {
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+}
+
+.Pa_Pagination:hover {
+    transform: scale3d(1.2, 1.2, 0.3);
+    -webkit-transform: scale3d(1.2, 1.2, 0.3);
+    -moz-transform: scale3d(1.2, 1.2, 0.3);
+}
+
+.Pa_ActivePagination {
+    color: var(--primary-background-color);
+    background: var(--skin-color);
+}
+
+.Pa_Pagination-Previous {
+    height: 34px;
+    width: 100px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    display: flex;
+    justify-content: end;
+    margin-right: 5px;
+    padding: 0 10px 0 0;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+}
+
+.Pa_Pagination-Previous:hover {
+    background: var(--primary-background-color);
+    justify-content: end;
+    transform: translate(-5px, 0px);
+    -webkit-transform: translate(-5px, 0px);
+    -moz-transform: translate(-5px, 0px);
+}
+
+.Pa_Pagination-Previous>svg {
+    margin-right: 5px;
+}
+
+.Pa_Pagination-Next {
+    height: 34px;
+    width: 100px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    display: flex;
+    justify-content: left;
+    margin-left: 5px;
+    padding: 0 0 0 10px;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+}
+
+.Pa_Pagination-Next:hover {
+    background: var(--primary-background-color);
+    justify-content: left;
+    transform: translate(5px, 0px);
+    -webkit-transform: translate(5px, 0px);
+    -moz-transform: translate(5px, 0px);
+}
+
+.Pa_Pagination-Next>svg {
+    margin-left: 5px;
+}

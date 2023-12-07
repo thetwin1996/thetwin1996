@@ -1,0 +1,5 @@
+.Pa_IconContent {
+    height: var(--icon-size);
+    width: var(--icon-size);
+    fill: var(--secondary-paragraph-color);
+}

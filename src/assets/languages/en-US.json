@@ -1,0 +1,154 @@
+{
+	"N_menuHome": "Home",
+	"N_menuAbout": "About Me",
+	"N_menuSkill": "Skills",
+	"N_menuWork": "Works",
+	"N_menuContactUs": "Contact Us",
+	"N_buttonResume": "Resume",
+
+	"MC_homeText1": "Hi, my name is",
+	"MC_homeText2": "Anniel Valle Valera",
+	"MC_homeText3": "I build things for the web.",
+	"MC_homeText4": "I am a junior web developer capable of creating complete web applications from scratch. Passionate about architecture and software development, with experience in various programming languages and technologies. I work with technologies such as MongoDB, Express.js, React.js and Node.js.",
+	"MC_ButtonMoreAboutMe": "More About Me",
+	"MC_Phrase": "“It doesn't matter how slow you go, as long as you don't stop.”",
+	"MC_PhraseAuthor": "Confucio",
+
+	"A_Title1": "About Me",
+	"A_Title2_1": "Personal ",
+	"A_Title2_2": "Details",
+	"A_Text1": "Hello! My name is Anniel. ",
+	"A_Text1_1": "I'm a Web Developer.",
+	"A_Text2": "I enjoy developing applications. My interest in web development began in 2015 when I began my studies in Computer Engineering, a career that aroused my interest in creating computer applications of any kind. Then I became much more interested in web programming because I find it a very interesting world.",
+	"A_Text3": "I have also studied application development technologies such as React.js, Vue.js, Node.js, Python, SQL, and Django. For version control Git and GitHub, and to make my designs: Figma.",
+	"A_Text4": "My work experience, as an engineer, focused on the development of various modules for important energy management systems, where I had the privilege of working with various web development technologies such as HTML, CSS, JavaScript, and PHP.",
+	"A_Text5": "I love working with all these technologies, since I consider the things that can be done with dedication and knowledge of these topics very cool.",
+	"A_Text6": "My native language is Spanish. I also speak English, certified by: ",
+	"A_Text6_1": "certificate.",
+	"A_buttonResume": "Download CV",
+	"Email": "Send me a message",
+	"Whatsapp": "Send me a message",
+
+	"Sk_Title1": "Skills",
+	"Sk_Title2_1": "What I can ",
+	"Sk_Title2_2": "work on?",
+	"Sk_Text1": "Frontend Development", 
+	"Sk_Text2": "Backend Development", 
+	"Sk_Text3": "UI / UX Design", 
+	"Sk_Text4": "Tools",
+
+	"F_Filter1": "All",
+	"F_Filter2": "Full-Stack",
+	"F_Filter3": "Frontend",
+	"F_Filter4": "Backend",
+	"F_Filter5": "Design",
+
+	"Wo_Title1": "Works",
+	"Wo_Title2_1": "Latest ",
+	"Wo_Title2_2": "Works",	
+
+	"Wo_Name0": "Blog",
+	"Wo_Description0": "Application with some of the typical functionalities of a Blog, among which are: creating a publication by a user, listing the publications of all users, and user authentication.",
+	"Wo_Role0": "Full-Stack Project",
+
+	"Wo_Name1": "To Do List",
+	"Wo_Description1": "Application to list a user's tasks. Typical CRUD functionalities were implemented to manage tasks. MongoDB was used to manage the Database.",
+	"Wo_Role1": "Full-Stack Project",
+
+	"Wo_Name2": "To Do List",
+	"Wo_Description2": "Application to list a user's tasks. Typical CRUD functionalities were implemented to manage tasks. PostgreSQL was used to manage the Database.",
+	"Wo_Role2": "Full-Stack Project",
+
+	"Wo_Name3": "To Do List",
+	"Wo_Description3": "Application to list a user's tasks. Typical CRUD functionalities were implemented to manage tasks. The server was implemented in Django with SQLite as the Database management system.",
+	"Wo_Role3": "Full-Stack Project",
+
+	"Wo_Name4": "Sociopedia",
+	"Wo_Description4": "Social network with some typical characteristics of this type of applications; such as: authentication, following and unfollowing users, liking, making comments, etc.",
+	"Wo_Role4": "Full-Stack Project",
+
+	"Wo_Name5": "Email Sending Server",
+	"Wo_Description5": "Implementation of a Node.js server to send emails.",
+	"Wo_Role5": "Backend Project",
+
+	"Wo_Name6": "Calculator",
+	"Wo_Description6": "Implementation of a calculator with multiple calculation functionalities.",
+	"Wo_Role6": "Frontend Project",
+
+	"Wo_Name7": "My Website 1.0",
+	"Wo_Description7": "Implementation of my Web Portfolio, which constitutes my personal website.",
+	"Wo_Role7": "Frontend Project",
+
+	"Wo_Name8": "To Do List",
+	"Wo_Description8": "Implementation of a task list with React.js.",
+	"Wo_Role8": "Frontend Project",
+
+	"Wo_Name9": "Dual language app",
+	"Wo_Description9": "Implementation of a dual language application.",
+	"Wo_Role9": "Frontend Project",
+
+	"Wo_Name10": "Tic Tac Toe Game",
+	"Wo_Description10": "Implementation of the Tic Tac Toe game.",
+	"Wo_Role10": "Frontend Project",
+
+	"Wo_Name11": "Movie Search Application",
+	"Wo_Description11": "Implementation of a movie search engine.",
+	"Wo_Role11": "Frontend Project",
+
+	"Wo_Name12": "Shopping Cart",
+	"Wo_Description12": "Implementation of an application with a shopping cart.",
+	"Wo_Role12": "Frontend Project",
+
+	"Wo_Name13": "To Do List",
+	"Wo_Description13": "Implementation of the server to list a user's tasks. Typical CRUD functionalities were implemented to manage tasks. MongoDB was used to manage the Database.",
+	"Wo_Role13": "Backend Project",
+
+	"Wo_Name14": "Blog",
+	"Wo_Description14": "Implementation of a Blog server to manage users and their respective publications.",
+	"Wo_Role14": "Backend Project",
+
+	"Wo_Name15": "To Do List",
+	"Wo_Description15": "Server implementation to manage a list of tasks stored in a Database, managed with PostgreSQL.",
+	"Wo_Role15": "Backend Project",
+
+	"Wo_Name16": "To Do List",
+	"Wo_Description16": "Server implementation to manage a list of tasks stored in a Database, managed with Django.",
+	"Wo_Role16": "Backend Project",
+
+	"Wo_Name17": "My Website 1.0",
+	"Wo_Description17": "Design of the first version of my web portfolio.",
+	"Wo_Role17": "Design Project",
+
+	"Wo_Name18": "Click Counter",
+	"Wo_Description18": "Implementation of a Click Counter where important React.js concepts such as working with components were applied.",
+	"Wo_Role18": "Frontend Project",
+
+	"Wo_Name19": "My Business Card",
+	"Wo_Description19": "Design of My Business Card.",
+	"Wo_Role19": "Design Project",
+
+	"Pa_Previous": "Previous",
+	"Pa_Next": "Next",
+
+	"CU_Title1": "Contact Us",
+	"CU_Title2_1": "Get I",
+	"CU_Title2_2": "n Touch",
+	"CU_Email": "Email",
+	"CU_Whatsapp": "Whatsapp",
+	"CU_FormButton": "Send me a message",
+
+	"CU_Name": "Name: ",
+	"CU_Error1": "It is only allowed to write from 1 to 40 alphabetical characters, with or without accentuation and spaces.",
+	"CU_Mail": "Email: ",
+	"CU_Error2": "It is only allowed to write a valid email.",
+	"CU_Message": "Message: ",
+	"CU_Error3": "It is only allowed to write from 4 to 1500 alphanumeric characters, with or without accentuation and space.",
+	"CU_Error": "Error: ",
+	"CU_Error4": "You must complete all fields correctly.",
+	"CU_Done": "Message sent successfully!",
+
+	"Fo_CopyRightText": "All rights reserved.",
+
+	"PNF_buttonResume": "Go to Home",
+	"PNF_PageNotFound": "Page not found"
+}

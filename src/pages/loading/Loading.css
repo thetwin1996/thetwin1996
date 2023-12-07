@@ -1,0 +1,7 @@
+.Loading_Loading {
+    background: var(--primary-background-color);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

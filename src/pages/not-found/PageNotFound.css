@@ -1,0 +1,68 @@
+.B_Button {
+  height: var(--button-height);
+  width: var(--button-width);
+  background: var(--skin-color);
+  color: var(--primary-paragraph-color);
+  border-radius: 10px;
+  border: 2px solid var(--skin-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Párrafo Normal */
+  font-family: var(--normal-paragraph-font);
+  font-weight: var(--normal-paragraph-font-weight);
+  font-size: var(--normal-paragraph-font-size);
+  line-height: var(--normal-paragraph-line-height);
+  letter-spacing: var(--normal-paragraph-letter-spacing);
+  /* Animación. */
+  transition: .2s, color .2s;
+  -webkit-transition: .2s, color .2s;
+  -moz-transition: .2s, color .2s;
+  /* box-shadow: var(--button-shadow); */
+  /* Quitar el subrayado de los elementos anclas. */
+  text-decoration: none;
+}
+
+.B_Button:hover {
+  /* box-shadow: var(--button-shadow-hover); */
+  background: var(--primary-background-color);
+  color: var(--skin-color);
+  cursor: pointer;
+  transform: translate(-2px, -2px);
+  /* Animación. */
+  -webkit-transform: translate(-2px, -2px);
+  -moz-transform: translate(-2px, -2px);
+}
+
+.PNF_PageNotFound {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.PNF_PageNotFound h1 {
+  font-family: var(--super-title-font);
+  font-weight: var(--super-title-font-weight);
+  font-size: calc(var(--super-title-font-size) + 130px);
+  line-height: var(--super-title-line-height);
+  letter-spacing: var(--super-title-letter-spacing);
+  color: var(--skin-color);
+  margin: 2% 0;
+}
+
+.PNF_PageNotFound h2 {
+  font-family: var(--normal-paragraph-font);
+  font-weight: var(--normal-paragraph-font-weight);
+  font-size: calc(var(--normal-paragraph-font-size) + 20px);
+  line-height: var(--normal-paragraph-line-height);
+  letter-spacing: var(--normal-paragraph-letter-spacing);
+  color: var(--primary-paragraph-color);
+  margin: 2% 0;
+}
+
+.PNF_Button {
+  display: flex;
+  gap: 20px;
+}

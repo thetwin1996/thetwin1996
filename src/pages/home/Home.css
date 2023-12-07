@@ -1,0 +1,34 @@
+.H_homeContent {
+    display: grid;
+    grid-template-areas: "H_socialNetworkIcons   H_mainContent    H_controlOptionButtons";
+    background: var(--primary-background-color);
+}
+
+.H_socialNetworkIcons {
+    grid-area: H_socialNetworkIcons;
+}
+
+.H_mainContent {
+    grid-area: H_mainContent;
+}
+
+.H_controlOptionButtons {
+    grid-area: H_controlOptionButtons;
+}
+
+/* Contenedor responsive. */
+@media (width <=850px) {
+
+    /* Quitar los Botones de Control y los Iconos de redes Sociales. */
+    .H_socialNetworkIcons {
+        display: none;
+        /* Ya que no se ve el menú en vista móvil, también deshabilitar la acción de sus botones. */
+        pointer-events: none;
+    }
+
+    .H_controlOptionButtons {
+        display: none;
+        /* Ya que no se ve el menú en vista móvil, también deshabilitar la acción de sus botones. */
+        pointer-events: none;
+    }
+}

@@ -1,0 +1,397 @@
+.A_About {
+    background: var(--secondary-background-color);
+}
+
+.A_Content {
+    display: flex;
+    flex-direction: column;
+}
+
+.A_Titles {
+    display: flex;
+    flex-direction: column;
+}
+
+.A_Title1,
+.A_Title2 {
+    font-family: var(--title-font);
+    font-weight: var(--title-font-weight);
+    font-size: var(--title-font-size);
+    line-height: var(--title-line-height);
+    letter-spacing: var(--title-letter-spacing);
+    color: var(--secondary-paragraph-color);
+}
+
+.A_Title1>span,
+.A_Title2>span {
+    color: var(--skin-color);
+}
+
+.A_Title2 {
+    align-self: center;
+    margin: 30px 0 40px 0;
+}
+
+.A_ProfilePhoto {
+    width: var(--photo-size);
+    height: calc((var(--photo-size) + 40px));
+    border-radius: 10px;
+    position: relative;
+    margin: 0 20px 20px 0;
+    z-index: 10;
+    grid-area: A_ProfilePhoto;
+}
+
+.A_ProfilePhoto::after {
+    content: '';
+    position: absolute;
+    width: var(--photo-size);
+    height: calc((var(--photo-size) + 40px));
+    border-bottom: 5px solid var(--skin-color);
+    border-radius: 10px;
+    right: 0px;
+    bottom:-10px;
+    z-index: -1;
+}
+
+.A_ProfilePhoto>img {
+    width: var(--photo-size);
+    height: calc((var(--photo-size) + 40px));
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.A_ImageAndTexts {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas:
+        "A_ProfilePhoto A_Text1"
+        "A_ProfilePhoto A_Text2"
+        "A_ProfilePhoto A_Text3"
+        "A_ProfilePhoto A_Text4"
+        "A_Text5        A_Text5"
+        "A_Text6        A_Text6";
+}
+
+.A_Text1 {
+    font-family: var(--title-font);
+    font-weight: var(--title-font-weight);
+    font-size: var(--title-font-size);
+    line-height: var(--title-line-height);
+    letter-spacing: var(--title-letter-spacing);
+    color: var(--secondary-paragraph-color);
+    text-align: justify;
+    margin-bottom: 10px;
+    grid-area: A_Text1;
+}
+
+.A_Text1>span {
+    color: var(--skin-color);
+}
+
+.A_Text2 {
+    grid-area: A_Text2;
+}
+
+.A_Text3 {
+    grid-area: A_Text3;
+}
+
+.A_Text4 {
+    grid-area: A_Text4;
+}
+
+.A_Text5 {
+    grid-area: A_Text5;
+}
+
+.A_Text6 {
+    grid-area: A_Text6;
+}
+
+.A_Text1,
+.A_Text2,
+.A_Text3,
+.A_Text4 {
+    margin-left: 10px;
+}
+
+.A_Text2,
+.A_Text3,
+.A_Text4,
+.A_Text5,
+.A_Text6 {
+    font-family: var(--normal-paragraph-font);
+    font-weight: var(--normal-paragraph-font-weight);
+    font-size: var(--normal-paragraph-font-size);
+    line-height: var(--normal-paragraph-line-height);
+    letter-spacing: var(--normal-paragraph-letter-spacing);
+    color: var(--secondary-paragraph-color);
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.A_Text6 {
+    margin: 0;
+}
+
+.A_Text6_1 {
+    color: var(--skin-color);
+}
+
+.A_ButtonResume {
+    display: flex;
+    align-self: center;
+    margin-top: 50px;
+}
+
+.A_ContactInformation {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.A_ContactOption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    background: var(--primary-background-color);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    font-family: var(--normal-paragraph-font);
+    font-weight: var(--normal-paragraph-font-weight);
+    font-size: var(--normal-paragraph-font-size);
+    color: var(--secondary-paragraph-color);
+}
+
+.A_ContactOption:hover {
+    background: transparent;
+    border-color: var(--skin-color);
+}
+
+.A_ContactOptionIcon {
+    font-size: var(--icon-size);
+    margin-bottom: 0.5rem;
+}
+
+.A_ContactOptionText {
+    color: var(--skin-color);
+}
+
+/* Hacer responsive la Sección Home */
+@media (width > 2000px) {
+    .A_ImageAndTexts {
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        grid-template-rows: repeat(6, auto);
+    }
+
+    .A_Text1,
+    .A_Text2,
+    .A_Text3,
+    .A_Text4 {
+        margin-left: 50px;
+    }
+
+    .A_Text5 {
+        margin-top: 10px;
+    }
+}
+
+@media (width <=2000px) {
+
+    .A_Text1,
+    .A_Text2,
+    .A_Text3,
+    .A_Text4 {
+        margin-left: -20px;
+    }
+
+    .A_Text5 {
+        margin-top: 10px;
+    }
+}
+
+@media (width <=1800px) {
+    .A_ImageAndTexts {
+        grid-template-areas:
+            "A_ProfilePhoto A_Text1"
+            "A_ProfilePhoto A_Text2"
+            "A_ProfilePhoto A_Text3"
+            "A_Text4        A_Text4"
+            "A_Text5        A_Text5"
+            "A_Text6        A_Text6";
+    }
+
+    .A_Text1,
+    .A_Text2,
+    .A_Text3 {
+        margin-left: 20px;
+    }
+
+    .A_Text4 {
+        margin: 20px 0 0 0;
+    }
+
+    .A_Text5 {
+        margin-top: 0px;
+    }
+}
+
+@media (width <=1520px) {
+    .A_ImageAndTexts {
+        grid-template-areas:
+            "A_ProfilePhoto A_Text1"
+            "A_ProfilePhoto A_Text2"
+            "A_ProfilePhoto A_Text3"
+            "A_Text4        A_Text4"
+            "A_Text5        A_Text5"
+            "A_Text6        A_Text6";
+    }
+
+    .A_Text1,
+    .A_Text2,
+    .A_Text3 {
+        margin-left: 10px;
+    }
+
+    .A_Text4 {
+        margin: 5px 0 0 0;
+    }
+}
+
+@media (width <=1440px) {
+    .A_ImageAndTexts {
+        grid-template-areas:
+            "A_ProfilePhoto A_Text1"
+            "A_ProfilePhoto A_Text2"
+            "A_ProfilePhoto A_Text3"
+            "A_Text4        A_Text4"
+            "A_Text5        A_Text5"
+            "A_Text6        A_Text6";
+    }
+
+    .A_Text1,
+    .A_Text2,
+    .A_Text3 {
+        margin-left: 15px;
+    }
+
+    .A_Text4 {
+        margin: 0px 0 0 0;
+    }
+}
+
+@media (width <=1150px) {
+    .A_ImageAndTexts {
+        grid-template-areas:
+            "A_ProfilePhoto A_Text1"
+            "A_ProfilePhoto A_Text2"
+            "A_Text3        A_Text3"
+            "A_Text4        A_Text4"
+            "A_Text5        A_Text5"
+            "A_Text6        A_Text6";
+    }
+
+    .A_Text1,
+    .A_Text2 {
+        margin-left: 25px;
+    }
+
+    .A_Text3 {
+        margin: 15px 0 15px 0;
+    }
+
+    .A_Text4,
+    .A_Text5 {
+        margin-bottom: 15px;
+    }
+}
+
+@media (width <=1000px) {
+    .A_ImageAndTexts {
+        grid-template-areas:
+            "A_ProfilePhoto A_Text1"
+            "A_ProfilePhoto A_Text2"
+            "A_Text3        A_Text3"
+            "A_Text4        A_Text4"
+            "A_Text5        A_Text5"
+            "A_Text6        A_Text6";
+    }
+
+    .A_Text1,
+    .A_Text2 {
+        margin-left: 25px;
+    }
+
+    .A_Text3 {
+        margin: 15px 0 15px 0;
+    }
+
+    .A_Text4,
+    .A_Text5 {
+        margin-bottom: 15px;
+    }
+}
+
+@media (width <=850px) {
+    .A_ProfilePhoto {
+        display: none;
+    }
+
+    .A_ImageAndTexts {
+        grid-template-areas:
+            "A_Text1    A_Text1"
+            "A_Text2    A_Text2"
+            "A_Text3    A_Text3"
+            "A_Text4    A_Text4"
+            "A_Text5    A_Text5"
+            "A_Text6    A_Text6";
+    }
+
+    .A_Text1,
+    .A_Text2,
+    .A_Text3 {
+        margin-left: 0px;
+    }
+
+    .A_Text4 {
+        margin: 5px 0 0 0;
+    }
+}
+
+@media (width <=750px) {
+    .A_Text1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (width <=500px) {
+
+    .A_Text1,
+    .A_Text2,
+    .A_Text3 {
+        margin-left: 0px;
+    }
+
+    .A_Text1 {
+        margin: -5px 0 -0px 0;
+    }
+
+    .A_Text4 {
+        margin: 5px 0 0 0;
+    }
+
+    .A_ContactInformation {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
