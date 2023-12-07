@@ -229,7 +229,7 @@ const jsonData = [
     description: 'Wo_Description',
     role: 'Wo_Role',
     link: '',
-    github: 'https://github.com/thetwin1996/annielvallevalera',
+    github: 'https://github.com/thetwin1996/thetwin1996',
     builtWith: [{ id: 0, name: 'ReactJS' }]
   },
   {
@@ -323,7 +323,7 @@ const jsonData = [
     description: 'Wo_Description',
     role: 'Wo_Role',
     link: '',
-    github: 'https://github.com/thetwin1996/nodejs-crud-auth',
+    github: 'https://github.com/thetwin1996/mern-crud-auth/tree/master/backend',
     builtWith: [{ id: 0, name: 'MongoDB' }, { id: 1, name: 'NodeJS' }]
   },
   {
@@ -343,7 +343,7 @@ const jsonData = [
     description: 'Wo_Description',
     role: 'Wo_Role',
     link: '',
-    github: 'https://github.com/thetwin1996/nodejs-blog',
+    github: 'https://github.com/thetwin1996/mern-blog/tree/master/api',
     builtWith: [{ id: 0, name: 'MongoDB' }, { id: 1, name: 'NodeJS' }]
   },
   {
@@ -360,7 +360,7 @@ const jsonData = [
     description: 'Wo_Description',
     role: 'Wo_Role',
     link: '',
-    github: 'https://github.com/thetwin1996/nodejs-to-do-list',
+    github: 'https://github.com/thetwin1996/pern-to-do-list/tree/master/pern-stack',
     builtWith: [{ id: 0, name: 'PosgreSQL' }, { id: 1, name: 'NodeJS' }]
   },
   {
@@ -377,7 +377,7 @@ const jsonData = [
     description: 'Wo_Description',
     role: 'Wo_Role',
     link: '',
-    github: 'https://github.com/thetwin1996/django-backend-crud',
+    github: 'https://github.com/thetwin1996/django-to-do-list/tree/master/django-crud-react',
     builtWith: [{ id: 0, name: 'SQLite3' }, { id: 1, name: 'DjangoPY' }, { id: 2, name: 'ReactJS' }]
   },
   {
