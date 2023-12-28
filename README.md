@@ -39,7 +39,7 @@ I am a Web Developer who loves JavaScript technologies!
   </a>
   <a href="http://www.instagram.com/thetwin1996/" target="_blank" rel="noreferrer">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/black-instagram-icon.png" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/instagram-white-icon.png" />
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" />
       <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" />
     </picture>
