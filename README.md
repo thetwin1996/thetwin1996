@@ -7,10 +7,10 @@ Web Developer
 
 I'm a Web Developer who loves JavaScript technologies!
 
-* 🌍  I'm based in Texas, USA
-* 🖥️  See my portfolio at [MyPortfolio](http://annielvallevalera.netlify.app/)
-* ✉️  You can contact me at [annielvallevalera96@gmail.com](mailto:annielvallevalera96@gmail.com)
-* ⚡  Fun fact: my favorite hobby is programming and watching action movies 😎
+* 🌍  I am based in the United States of America.
+* 🖥️  See my portfolio at [MyPortfolio](http://annielvallevalera.netlify.app/).
+* ✉️  You can contact me at [annielvallevalera96@gmail.com](mailto:annielvallevalera96@gmail.com).
+* ⚡  Fun fact: my favorite hobby is programming and watching action movies 😎.
 
 ### Skills
 
