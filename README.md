@@ -5,7 +5,7 @@ Hi! My name is Anniel Valle Valera
 Web Developer
 -------------
 
-I'm a Web Developer who loves JavaScript technologies!
+I am a Web Developer who loves JavaScript technologies!
 
 * 🌍  I am based in the United States of America.
 * 🖥️  See my portfolio at [MyPortfolio](http://annielvallevalera.netlify.app/).
