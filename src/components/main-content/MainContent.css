@@ -75,6 +75,7 @@
     line-height: var(--normal-paragraph-line-height);
     letter-spacing: var(--normal-paragraph-letter-spacing);
     color: var(--secondary-paragraph-color);
+    text-align: justify;
     margin: 2% 0 5%;
     width: 85%;
 }
@@ -258,8 +259,7 @@
 
     .MC_HomeText1,
     .MC_HomeText2,
-    .MC_HomeText3,
-    .MC_HomeText4 {
+    .MC_HomeText3 {
         text-align: center;
     }
 
@@ -334,8 +334,7 @@
 
     .MC_HomeText1,
     .MC_HomeText2,
-    .MC_HomeText3,
-    .MC_HomeText4 {
+    .MC_HomeText3 {
         text-align: center;
     }
 
