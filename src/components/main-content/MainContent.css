@@ -56,7 +56,7 @@
     height: calc((var(--photo-size) + 40px));
     border-bottom: 5px solid var(--skin-color);
     border-radius: 10px;
-    right: 0px;
+    right:0;
     bottom:-10px;
     z-index: -1;
 }
@@ -170,7 +170,7 @@
         margin-top: 70px;
         width: 40%;
         margin-left: 60%;
-        gap: 0px;
+        gap:0;
     }
 }
 
@@ -195,7 +195,7 @@
         margin-top: 140px;
         width: 55%;
         margin-left: 45%;
-        gap: 0px;
+        gap:0;
     }
 }
 
@@ -220,7 +220,7 @@
         margin-top: 140px;
         width: 55%;
         margin-left: 45%;
-        gap: 0px;
+        gap:0;
     }
 }
 
@@ -245,7 +245,7 @@
         margin-top: 140px;
         width: 55%;
         margin-left: 45%;
-        gap: 0px;
+        gap:0;
     }
 }
 
@@ -268,15 +268,15 @@
     }
 
     .MC_HomeText4 {
-        width: 80%;
-        margin: 30px 0 0px 0;
+        width: 95%;
+        margin: 30px 0 0 0;
     }
 
     .MC_Phrase {
         margin-top: 60px;
         width: 55%;
         margin-left: 45%;
-        gap: 0px;
+        gap:0;
     }
 
     .MC_TextsButtonPhoto {
@@ -343,15 +343,15 @@
     }
 
     .MC_HomeText4 {
-        width: 80%;
-        margin: 30px 0 0px 0;
+        width: 95%;
+        margin: 30px 0 0 0;
     }
 
     .MC_Phrase {
         margin-top: 60px;
         width: 55%;
         margin-left: 45%;
-        gap: 0px;
+        gap:0;
     }
 
     .MC_TextsButtonPhoto {
