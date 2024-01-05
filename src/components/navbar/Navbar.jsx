@@ -9,7 +9,8 @@ import { CloseMenuIcon, OpenMenuIcon } from '../../elements/close-open-menu-icon
 import { FormattedMessage } from 'react-intl'
 import { SetLanguageButton } from '../../components/control-buttons/set-language-button/SetLanguageButton.jsx'
 // import { SoundIcon } from '../../elements/control-button-icons/ControlButtonIcons.jsx'
-import { FacebookIcon, GithubIcon, InstagramIcon, LinkedinIcon, TwitterIcon } from '../../elements/media-button-icons/MediaButtonIcons.jsx'
+import { GithubIcon, InstagramIcon, LinkedinIcon } from '../../elements/media-button-icons/MediaButtonIcons.jsx'
+// import { FacebookIcon, GithubIcon, InstagramIcon, LinkedinIcon, TwitterIcon } from '../../elements/media-button-icons/MediaButtonIcons.jsx'
 import { SetDarkModeButton } from '../control-buttons/set-dark-mode-button/SetDarkModeButton.jsx'
 import { SetColorPaletteButton } from '../control-buttons/set-color-palette-button/SetColorPaletteButton'
 import { Link } from 'react-scroll'
@@ -49,8 +50,8 @@ export function Navbar () {
           <a href='' className='N_socialIcon Instagram'><InstagramIcon /></a>
           <a href='' className='N_socialIcon Github'><GithubIcon /></a>
           <a href='' className='N_socialIcon Linkedin'><LinkedinIcon /></a>
-          <a href='' className='N_socialIcon Twitter'><TwitterIcon /></a>
-          <a href='' className='N_socialIcon Facebook'><FacebookIcon /></a>
+          {/* <a href='' className='N_socialIcon Twitter'><TwitterIcon /></a> */}
+          {/* <a href='' className='N_socialIcon Facebook'><FacebookIcon /></a> */}
         </div>
       </div>
       <button className='N_buttonOpenMenu'><OpenMenuIcon /></button>
