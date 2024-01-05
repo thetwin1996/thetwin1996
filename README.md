@@ -8,8 +8,8 @@ Web Developer
 I am a Web Developer who loves JavaScript technologies!
 
 * 🌍  I am based in the United States of America.
-* 🖥️  See my portfolio at [MyPortfolio](http://annielvallevalera.netlify.app/).
-* ✉️  You can contact me at [MyEmail](mailto:annielvallevalera96@gmail.com).
+* 🖥️  See my portfolio at my [portfolio](http://annielvallevalera.netlify.app/).
+* ✉️  You can contact me at my [email](mailto:annielvallevalera96@gmail.com).
 * ⚡  Fun fact: my favorite hobby is programming and watching action movies 😎.
 
 ### Skills
