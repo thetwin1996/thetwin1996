@@ -9,7 +9,7 @@
 // }
 
 import React from 'react'
-import PDF from '../../assets/Anniel Valle Valera.pdf'
+import PDF from '../../assets/Anniel_Valle_Valera.pdf'
 
 export const Resume = () => {
   return (
