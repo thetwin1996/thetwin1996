@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import './Button.css'
-import PDF from '../../assets/Anniel_Valle_Valera.pdf'
+import PDF from '../../assets/Anniel Valle Valera.pdf'
 
 export function Button ({ children, isDownload }) {
   return isDownload
