@@ -3,6 +3,6 @@
   publish = "dist"
 
 [[redirects]]
-  from = "/*.pdf"
+  from = "/src/assets/Anniel Valle Valera.pdf"
   to = "/:splat.pdf"
   status = 200
